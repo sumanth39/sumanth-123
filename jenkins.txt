@@ -1,0 +1,101 @@
+1) git java install
+2)jenkins install
+3)service sinstall jenkins user
+4)services install on remote services when credians using\
+
+
+
+jenkins:yum package
+docker
+jenkins.war
+tomcat
+pre-reqisite:1)java 2)javac
+jenkins war file download:
+
+jenkins is running on java 
+java -jar jenkins.war: this command who is ru jenkins dir is creaded on user dir
+
+
+ssh plugin
+gitbucket
+maven integration
+javdoc
+plugin is the additional information of jenkins server
+
+
+global tool mangement;
+
+
+job management:
+what is job:job mens task buils,inte,dellivery
+
+
+
+
+based on req we can install plugin
+
+
+general:project name
+soursecode :where code is comes
+build trigger:
+
+
+jenkins3:
+jenkins in tomcat
+/etc/tomcat
+./bin/startup.sh 
+
+
+we have to connstion establish between the two systems we want plugin 
+plugin is addition s/w it will help the intact with othr sysems 
+cd /opt
+
+1) free style job: we can integerate any type of file
+2)mavenjob : we can integrate java files
+3)pipeline job: sequence of jobs one job is connected to another job
+4) multipipe line jobs
+ 1) how to shudle a job in jenkins
+--get the code from scm servr(gitbucket)
+--setting trigger(build process triggers)(
+--setup build env
+--build action
+-post build action
+https://github.com/sumanth39/sumanth-123.git  
+
+
+
+
+
+
+
+jenkins ci:
+1) git java jenkins install and start
+2)login to jenkins
+3) add plugin github integration plugin
+4) github repo cretaed & git weebhook created with https:://ip:8080/github-webhook/
+5)creta freestyle job 1)git hub project:add github url like https://github.com/sumanth39/sumanth-123
+6)sourse code management 1)git
+7)build triggers: GitHub hook trigger for GITScm polling
+8)build : echo "job 1 done
+
+
+
+3) phases is there in it:1)dev(coding)in git after code push to githubmaster branch 2)testing(testing the code)(selinum)( 3)deployment(production code deployed in live servers)
+
+
+directory of jobs:/vat/lib/jenkins/...
+
+maven version chec k: mvn --version
+
+
+git:/var/www/html/.git/
+
+
+
+
+======================jenkinsci-==============
+1)dev to scm using git 
+2)
+
+
+
